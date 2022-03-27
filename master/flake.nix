@@ -11,6 +11,7 @@
   inputs.src-nicy-master.ref   = "refs/heads/master";
   inputs.src-nicy-master.owner = "icyphox";
   inputs.src-nicy-master.repo  = "nicy";
+  inputs.src-nicy-master.dir   = "";
   inputs.src-nicy-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
