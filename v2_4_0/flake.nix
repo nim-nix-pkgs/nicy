@@ -11,7 +11,6 @@
   inputs.src-nicy-v2_4_0.ref   = "refs/tags/v2.4.0";
   inputs.src-nicy-v2_4_0.owner = "icyphox";
   inputs.src-nicy-v2_4_0.repo  = "nicy";
-  inputs.src-nicy-v2_4_0.dir   = "";
   inputs.src-nicy-v2_4_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
